@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodos1"
+    android:orientation="vertical"
+    tools:context=".vista.ConsultarPrestamoActivity">
+
+    <TextView
+        android:id="@+id/viewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_margin_top"
+        android:gravity="center"
+        android:text="PRESTAMO"
+        android:textSize="@dimen/titulo_principal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewFolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FOLIO" />
+
+        <EditText
+            android:id="@+id/txtFolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:labelFor="@+id/viewFolio"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISBN" />
+
+        <EditText
+            android:id="@+id/txtIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewIsbn"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewClaveUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLAVE USUARIO" />
+
+        <EditText
+            android:id="@+id/txtClaveUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewClaveUsuario"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewFechaPrestamo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FECHA PRESTAMO" />
+
+        <EditText
+            android:id="@+id/txtFechaPrestamo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewFechaPrestamo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewFechaDevolucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FECHA DEVOLUCION" />
+
+        <EditText
+            android:id="@+id/txtFechaDevolucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewFechaDevolucion"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonDevolver"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rounded_button"
+            android:text="DEVOLVER LIBRO" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

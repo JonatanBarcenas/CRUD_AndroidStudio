@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodos1"
+    android:orientation="vertical"
+    tools:context=".vista.Registrar_libro">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/main_margin_top"
+        android:text="Registrar Libro"
+        android:textSize="@dimen/titulo_principal" />
+
+    <EditText
+        android:id="@+id/editTextIsbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ISBN"
+        android:inputType="number"
+        android:padding="@dimen/second_margin_top" />
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TITULO"
+        android:inputType="text"
+        android:padding="@dimen/second_margin_top" />
+
+    <EditText
+        android:id="@+id/editTextAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="AUTOR"
+        android:inputType="text"
+        android:padding="@dimen/second_margin_top" />
+
+    <EditText
+        android:id="@+id/editTextEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="EDITORIAL"
+        android:inputType="text"
+        android:padding="@dimen/second_margin_top" />
+
+    <EditText
+        android:id="@+id/editTextEdicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="EDICION"
+        android:inputType="text"
+        android:padding="@dimen/second_margin_top" />
+
+    <EditText
+        android:id="@+id/editTextIdioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IDIOMA"
+        android:inputType="text"
+        android:padding="@dimen/second_margin_top" />
+
+    <EditText
+        android:id="@+id/editTextVolumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="VOLUMEN"
+        android:inputType="text"
+        android:padding="@dimen/second_margin_top" />
+
+    <Button
+        android:id="@+id/buttonRegistrarLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="@dimen/margin_buttons"
+        android:text="Registrar" />
+</LinearLayout>

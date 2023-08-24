@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="NUMERO" />
+
+    <EditText
+        android:id="@+id/editTextCalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="CALLE" />
+
+    <EditText
+        android:id="@+id/editTextColonia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="COLONIA" />
+
+    <EditText
+        android:id="@+id/editTextCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="CIUDAD" />
+
+    <EditText
+        android:id="@+id/editTextEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="ESTADO" />
+
+    <EditText
+        android:id="@+id/editTextCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="CODIGO POSTAL" />
+
+    <EditText
+        android:id="@+id/editTextPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="PAIS" />
+
+    <Spinner
+        android:id="@+id/rspinnerOrientacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        android:padding="@dimen/second_margin_top"/>
+
+</LinearLayout>

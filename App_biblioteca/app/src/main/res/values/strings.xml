@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+
+    <string-array name="entidades_crud">
+
+        <item>Registrar</item>
+        <item>Consultar</item>
+        <item>Listar</item>
+
+    </string-array>
+
+</resources>

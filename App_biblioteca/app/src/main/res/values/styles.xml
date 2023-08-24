@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DatePickerDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorPrimary">#ABDC13</item>
+        <item name="colorOnPrimary">#1CD1DD</item>
+    </style>
+
+
+
+</resources>

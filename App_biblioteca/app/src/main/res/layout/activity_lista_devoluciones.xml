@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodos1"
+    android:orientation="vertical"
+    tools:context=".vista.ListaDevolucionesActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main_margin_top"
+        android:layout_marginTop="@dimen/main_margin_top"
+        android:gravity="center"
+        android:text="DEVOLUCIONES"
+        android:textSize="@dimen/titulo_principal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/txtBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listaPrestamos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

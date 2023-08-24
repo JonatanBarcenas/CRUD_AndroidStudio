@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biblioteca"
+    android:orientation="vertical"
+    tools:context=".vista.MainActivity">
+
+    <Button
+        android:id="@+id/buttonLibros"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/shapes"
+        android:padding="@dimen/main_margin_top"
+        android:text="LIBROS"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/shapes"
+        android:padding="@dimen/main_margin_top"
+        android:text="USUARIOS"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPrestamos"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/shapes"
+        android:padding="@dimen/main_margin_top"
+        android:text="PRESTAMOS"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDevoluciones"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/shapes"
+        android:padding="@dimen/main_margin_top"
+        android:text="DEVOLUCIONES"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+</LinearLayout>

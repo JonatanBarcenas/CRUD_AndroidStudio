@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/libro"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/libro"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:targetApi="31" >
+        <activity
+            android:name=".vista.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.ListaDevolucionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.PrestamosCRUD"
+            android:exported="false" />
+        <activity
+            android:name=".vista.RegistarPrestamo"
+            android:exported="false" />
+        <activity
+            android:name=".vista.ConsultarPrestamoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.RegistrarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.ConsultarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.ConsultarLibroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.Registrar_libro"
+            android:exported="false" />
+        <activity
+            android:name=".vista.UsuariosCRUD"
+            android:exported="false" />
+        <activity
+            android:name=".vista.LibrosCRUD"
+            android:exported="false" />
+        <activity
+            android:name=".vista.EditarLibroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.EditarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.ConsultarDevolucionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vista.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
